@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage",
-    "dev": "concurrently \"watchify ./static/js/index.js -o bundle.js\" \"python -m http.server\" \"jest --watchAll\""
+    "dev": "concurrently \"watchify ./static/js/index.js -o bundle.js\" \"python -m http.server\" \"jest --watchAll\"",
+    "dev2": "watchify ./static/js/index.js -o bundle.js"
   },
   "repository": {
     "type": "git",
